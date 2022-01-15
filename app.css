@@ -1,0 +1,45 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box; 
+}
+
+
+body {
+    background-color: cornflowerblue;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+/* FOR NAV-BAR */
+.navbar.scrolled {
+    background-color: rgb(16, 8, 90);
+    transition: 500ms;
+}
+
+#mainNav .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(255, 217, 0);
+}
+
+
+#mainNav .nav-link {
+    color: white;
+    font-weight: 350;
+}
+
+#mainNav .nav-link:hover {
+    color: rgb(255, 217, 0);
+}
+
+#mainNav {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    
+}
+
+/* FOR PANEL SECTION */
