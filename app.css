@@ -1,5 +1,5 @@
 html {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Questrial', sans-serif;
     box-sizing: border-box; 
 }
 
@@ -14,6 +14,10 @@ body {
 
 }
 
+h1 {
+    font-family: 'Questrial', sans-serif;
+}
+
 
 /* For HERO-BANNER */
 .hero-banner {
@@ -25,8 +29,6 @@ body {
     height: 450px;
     margin-top: 60px;
 }
-
-
 
 
 /* FOR NAV-BAR */
@@ -68,6 +70,8 @@ body {
         font-weight: 100;
     
     }
+
+    #description-group
 
     #description-group img {
         max-width: 20%;
