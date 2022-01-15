@@ -5,18 +5,32 @@ html {
 
 
 body {
-    background-color: cornflowerblue;
-    display: flex;  
+    background-color: #456990;
+    display: flex; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 
 }
 
+
+/* For HERO-BANNER */
+.hero-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+    url(https://www.ualberta.ca/folio/media-library/2020/09/200902-vaccine-pricing-banner.jpg);
+    height: 450px;
+    margin-top: -90px;
+}
+
+
 /* FOR NAV-BAR */
 .navbar.scrolled {
-    background-color: rgb(16, 8, 90);
-    transition: 500ms;
+    background-color: #114B5F;
+    transition: 700ms;
 }
 
 #mainNav .navbar-brand {
@@ -42,4 +56,4 @@ body {
     
 }
 
-/* FOR PANEL SECTION */
+
