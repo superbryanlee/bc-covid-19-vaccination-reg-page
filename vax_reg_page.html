@@ -43,12 +43,26 @@
     </div>
   </nav>
 
-
-  <section class="hero-banner container-fluid d-flex p-5 bg-info mt-6">
+  <section class="hero-banner container-fluid d-flex flex-column p-5 bg-info mt-6">
     <div class="text-center">
       <h1>Get Vaccinated!</h1>
-      <h5>Register below.</h5>
-    </div>  
+      <h4>Register online, by phone, or with BCServices Offices.</h4>
+    </div>
+  </section>
+
+
+  <section id='online' class="container-fluid container-fluid d-flex justify-content-center p-5">
+    <div class="panel">
+      <h3>Register and book with the Get Vaccinated system.</h3>
+      <div id="description-group">You can register yourself or someone else, like a parent, grandparent or child. We will never ask you for your
+        SIN, driver's licence number or banking and credit card details.
+      </div>
+      <div id="description-group"> Once you've registered, you'll be able to book an appointment using your confirmation number. Booking an
+        appointment online or by phone is easy, convenient and guarantees your vaccination at the clinic.
+      </div>
+      <div id="description-group">If needed, you can easily reschedule your appointment online. </div>
+    </div>
+  
   </section>
 
 
@@ -62,23 +76,27 @@
 
 
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-<script>
-  $(function () {
-    $(document).scroll(function () {
-      var $nav = $("#mainNav");
-      $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $("#mainNav");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      });
     });
-  });
-</script>
+  </script>
 </body>
 
 
