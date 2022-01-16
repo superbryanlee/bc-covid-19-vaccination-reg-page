@@ -8,5 +8,7 @@ difficult to siphon through, especially for elderly folk who are not as tech-sav
 also think we can make the web-page look slightly better and more effective. That's the challenge 
 we'll be tackling! 
 
+This is the original webpage: https://www2.gov.bc.ca/gov/content/covid-19/vaccine/register
+
 We have the bare-minimum experience with HTML/CSS/JS so that's what we're planning on honing with this
 project. We don't plan on being competitive, but please to enjoy our project. 

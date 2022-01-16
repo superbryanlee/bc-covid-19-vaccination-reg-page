@@ -18,15 +18,6 @@ body {
 
 }
 
-#online-registration-information {
-    display: table;
-    margin: 0 auto;
-  }
-
-#reg-button {
-    background-color: #408645;
-    color: white;
-}
 
 
 /* FOR NAV-BAR */
@@ -79,11 +70,39 @@ body {
     width: 200px;
 }
 
+/* FOR SECTION-BANNER */
+.section-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+    url(https://img.apmcdn.org/f87949a09a74b7724cc218d68b1b9f35a8f812e1/normal/e726bd-20210121-covid-vaccine-clinic-02-2000.jpg);
+    height: 450px;
+    margin-top: 60px;
+    background-position:top;
+}
+
+.section-banner h1, h4 {
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+.section-banner img {
+    width: 200px;
+}
+
+
 
 /* Vaccination Progress Bars: */
 
-#vacc-progress div {
-    margin-top: 30px;
+
+.progress {
+    margin-bottom: 20px;
+    font-family: "Merriweather", serif;
+}
+
+.progress:last-child {
+    margin-bottom: 0px;
 }
 
 /* FOR PANEL: */
@@ -103,7 +122,29 @@ body {
 }
 
 /* Sections */
+#online-registration-information {
+    display: table;
+    margin: 0 auto;
+  }
 
+#reg-button {
+    background-color: #408645;
+    color: white;
+}
+
+#reg-button:hover {
+    background-color: #2c5a2f;
+    color: white;
+}
+
+#reg-phone a {
+    text-decoration: underline;
+
+}
+
+section:nth-child(5) {
+    margin-bottom: 0px;
+}
 
 @media (max-width: 768px) {
     #website-head {
@@ -123,8 +164,14 @@ body {
 
 @media (min-width: 992px) {
     section {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
+
+    section:nth-child(2) {
+        margin-bottom: 0;
+    }
+
+
 
 }
 
