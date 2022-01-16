@@ -17,9 +17,10 @@
     rel="stylesheet">
 
 
-  <!-- Bootstrap CSS -->
+  <!-- Bootstrap CSS and JS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="app.css">
@@ -53,12 +54,25 @@
   <section class="hero-banner container-fluid d-flex flex-column p-5 my-0">
     <div class="text-center">
       <img src="/Users/blee/Documents/GitHub/nw_hacks_2022/img/bc_logo.png" alt="">
-      <h1 id="website-head">Get Vaccinated for COVID-19</h1>
-      <h4 id="website-descriptor">Register online, by phone, or with BCServices Offices.</h4>
+      <h1 id="website-head">Get Vaccinated against COVID-19</h1>
+      <h4 id="website-descriptor">Register online, by phone, or with BC Service Offices.</h4>
     </div>
   </section>
 
-
+  <!-- <section id = 'vacc-progress' class="container-fluid p-3">
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+  </section> -->
   <!-- <section class="container-fluid container-fluid d-flex justify-content-center p-5">
     <div class="panel">
       <h3>Register and book with the Get Vaccinated system.</h3>
@@ -82,14 +96,27 @@
         <img class="img-fluid" src="/Users/blee/Documents/GitHub/nw_hacks_2022/img/computer.jpeg" alt="">
       </div>
       <div class="col-lg-6 order-2 order-lg-2 d-flex flex-column align-items-center p-5">
-        <div class="panel p-5">
-          <h2 class="option">Register Online</h2>
-          <div>To register online, you must provide:</div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam nisi esse hic cupiditate, odio atque rem
-            eligendi et modi neque ad commodi laudantium porro culpa animi quam possimus blanditiis itaque?</p>
+
+        <div class="panel p-4">
+          <h3 class="option">Register Online</h3>
+
+          <div class="container text-left mb-3">
+            <div class="mb-1 text-center">To register online, you must provide:</div>
+            <ul id="online-registration-information">
+              <li>First and last name</li>
+              <li>Date of birth</li>
+              <li>Postal Code</li>
+              <li>Personal Health Number (PHN)</li>
+              <li>Email address or phone number</li>
+            </ul>
+          </div>
+
+          <button id = "reg-button" class="btn col-6 mx-auto mb-2" type="button">Register</button>
+          <button class="btn btn-secondary col-6 mx-auto" type="button">Reschedule</button>
+
+
 
         </div>
-
 
       </div>
     </div>
@@ -102,8 +129,8 @@
         <img class="img-fluid" src="/Users/blee/Documents/GitHub/nw_hacks_2022/img/phone.jpeg" alt="">
       </div>
       <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column align-items-center p-5">
-        <div class="panel p-5">
-          <h2 class="option">Register by Phone</h2>
+        <div class="panel p-4">
+          <h3 class="option">Register by Phone</h3>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, obcaecati in. Optio asperiores commodi
             alias
             ipsum quos? Dignissimos voluptas quibusdam ea veritatis ullam eaque, at ipsum optio excepturi totam
@@ -122,25 +149,15 @@
         <img class="img-fluid" src="/Users/blee/Documents/GitHub/nw_hacks_2022/img/in-person.jpeg" alt="">
       </div>
       <div class="col-lg-6 order-2 order-lg-2 d-flex flex-column align-items-center p-5">
-        <div class="panel p-5">
-          <h2 class="option">Register at a BCServices Office</h2>
+        <div class="panel p-4">
+          <h3 class="option">Register at a BC Service Office</h3>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In numquam fugit laborum cumque officia delectus
             suscipit, esse nesciunt aliquid fuga molestiae non cum alias ipsa porro fugiat at hic enim.</p>
         </div>
-
-
-
-
       </div>
     </div>
     </div>
   </section>
-
-
-
-
-
-
 
 
 
@@ -168,6 +185,7 @@
       });
     });
   </script>
+
 </body>
 
 

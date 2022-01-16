@@ -1,6 +1,8 @@
 html {
     font-family: 'Inter', sans-serif;
     box-sizing: border-box; 
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 
@@ -11,29 +13,19 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin-right: 0px;
+    padding-right: 0px;
 
 }
 
+#online-registration-information {
+    display: table;
+    margin: 0 auto;
+  }
 
-
-/* For HERO-BANNER */
-.hero-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: 
-    url(/Users/blee/Documents/GitHub/nw_hacks_2022/img/banner.jpg);
-    height: 450px;
-    margin-top: 60px;
-}
-
-.hero-banner h1, h4 {
+#reg-button {
+    background-color: #408645;
     color: white;
-    font-family: 'Merriweather', serif;
-}
-
-.hero-banner img {
-    width: 200px;
 }
 
 
@@ -64,6 +56,34 @@ body {
     font-size: 1.5rem;
     font-weight: 100;
     
+}
+
+
+/* For HERO-BANNER */
+.hero-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+    url(/Users/blee/Documents/GitHub/nw_hacks_2022/img/banner.jpg);
+    height: 450px;
+    margin-top: 60px;
+}
+
+.hero-banner h1, h4 {
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+.hero-banner img {
+    width: 200px;
+}
+
+
+/* Vaccination Progress Bars: */
+
+#vacc-progress div {
+    margin-top: 30px;
 }
 
 /* FOR PANEL: */
