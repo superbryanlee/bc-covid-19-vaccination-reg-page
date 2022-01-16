@@ -29,12 +29,13 @@ body {
 
 .hero-banner h1, h4 {
     color: white;
+    font-family: 'Merriweather', serif;
 }
 
 
 /* FOR NAV-BAR */
 .navbar.scrolled {
-    background-color: #25283D;
+    background-color: #90b1d4;
     transition: 700ms;
 }
 
@@ -47,7 +48,7 @@ body {
 
 #mainNav .nav-link {
     color: white;
-    font-weight: 350;
+    font-weight: 100;
 }
 
 #mainNav .nav-link:hover {
@@ -73,36 +74,30 @@ body {
     flex-direction: column;  
 }
 
+.option {
+    font-family: 'Merriweather';
+}
+
 /* Sections */
 
 
-
-
-@media (max-width: 1300px) {
-    #heading-group h1 {
+@media (max-width: 768px) {
+    #website-head {
         font-size: 2rem;
     }
 
-    #description-group h1 {
-        font-size: 1.5rem;
-        font-weight: 100;
-    
+    #website-descriptor {
+        font-size: 1rem;
     }
-
-    #description-group img {
-        max-width: 20%;
-    }
-
-    #description-group p {
-        font-size: 0.8rem;
-        padding: 10px;
-    
+    .navbar {
+        background-color: #90b1d4;
     }
 
 }
 
-@media (min-width: 992px) {
 
+
+@media (min-width: 992px) {
     section {
         margin-bottom: 50px;
     }
