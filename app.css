@@ -150,7 +150,7 @@ section:nth-child(5) {
     margin-bottom: 0px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     #website-head {
         font-size: 2rem;
     }
