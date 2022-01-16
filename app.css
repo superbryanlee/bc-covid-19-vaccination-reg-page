@@ -22,15 +22,19 @@ body {
     justify-content: center;
     align-items: center;
     background-image: 
-    url(https://www.ualberta.ca/folio/media-library/2020/09/200902-vaccine-pricing-banner.jpg);
+    url(/Users/blee/Documents/GitHub/nw_hacks_2022/img/banner.jpg);
     height: 450px;
     margin-top: 60px;
+}
+
+.hero-banner h1, h4 {
+    color: white;
 }
 
 
 /* FOR NAV-BAR */
 .navbar.scrolled {
-    background-color: #114B5F;
+    background-color: #25283D;
     transition: 700ms;
 }
 
@@ -69,6 +73,9 @@ body {
     flex-direction: column;  
 }
 
+/* Sections */
+
+
 
 
 @media (max-width: 1300px) {
@@ -82,8 +89,6 @@ body {
     
     }
 
-    #description-group
-
     #description-group img {
         max-width: 20%;
     }
@@ -96,10 +101,14 @@ body {
 
 }
 
-/* @media (min-width: 1300px) {
+@media (min-width: 992px) {
 
     section {
         margin-bottom: 50px;
     }
 
-} */
+}
+
+
+
+
