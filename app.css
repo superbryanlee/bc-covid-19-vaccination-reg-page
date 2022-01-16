@@ -56,7 +56,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: 
-    url(/Users/blee/Documents/GitHub/nw_hacks_2022/img/banner.jpg);
+    url(img/banner.jpg);
     height: 450px;
     margin-top: 60px;
 }
@@ -76,7 +76,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: 
-    url(https://img.apmcdn.org/f87949a09a74b7724cc218d68b1b9f35a8f812e1/normal/e726bd-20210121-covid-vaccine-clinic-02-2000.jpg);
+    url(img/banner2.jpeg);
     height: 450px;
     margin-top: 60px;
     background-position:top;
