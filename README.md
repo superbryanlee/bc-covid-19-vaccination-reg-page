@@ -11,3 +11,6 @@ This is the original webpage for reference: https://www2.gov.bc.ca/gov/content/c
 
 We have the bare-minimum experience with HTML/CSS/JS so that's what we're planning on honing with this
 project. We don't plan on being competitive, but please do enjoy our project. Happy hacking. 
+
+--
+Our project places on emphasis on mobile/desktop compatbility - please feel free to play with the dimensions of the webpage. We made it so that the website presentation is clear for any device. 
