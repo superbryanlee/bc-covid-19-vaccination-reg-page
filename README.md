@@ -1,4 +1,4 @@
-# nw_hacks_2022
+# nwHACKS 2022: BC COVID-19 Vaccination Registration Page
 
 Hi! Welcome to our project. Our team consists of two members with relatively little experience
 in programming, but we have experience in design and decided to focus on that for our first hackathon.
