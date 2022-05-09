@@ -1,7 +1,6 @@
 # nwHacks 2022: BC COVID-19 Vaccination Registration Page
 
-Hi! Welcome to our project. Our team consists of two members with relatively little experience
-in programming, but we have experience in design and decided to focus on that for our first hackathon.
+Hi! Welcome to our project. Our team consists of two members with no hackathon experience, but we have experience in design and decided to focus on that for our first run.
 
 Our project is simple. We found the BC.GOV COVID-19 vaccination registration page to be 
 difficult to siphon through, especially for elderly folk who are not as tech-savvy. We ourselves
